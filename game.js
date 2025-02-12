@@ -51,8 +51,8 @@ missileImg.src = "/assets/missel.png";
 // Configuração do canvas
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
-canvas.width = 1200;
-canvas.height = 700;
+canvas.width = 1100;
+canvas.height = 550;
 
 //--------------------------------------------CRIANDO ELEMENTOS-----------------------------------//
 
