@@ -1,1 +1,61 @@
 # Project-War-Game
+BLAZING TANKS - ALPHA VERSION 1.0
+
+- Desenvolvedor: Felipe de Melo Lemos
+
+- Curso: Sistemas de Informação
+
+- Período: 6º
+
+- Matéria: Desenvolvimento de Jogos Digitais
+- Professor: Me. Eduardo Henrique Marques Ferreira.
+
+- Descrição do Jogo
+
+Blazing Tanks é um jogo onde o jogador controla um tanque azul e deve desviar de tanques inimigos vermelhos que vêm em sua direção. Durante a partida, o jogador pode coletar munição, que ajudam a derrotar os inimigos e alcançar a vitória.
+
+- Mecânicas do Jogo
+
+O jogador controla um tanque azul na parte inferior da tela.
+Tanques vermelhos inimigos surgem do topo e se movem para baixo.
+O jogador pode se mover para os lados para evitar os inimigos.
+Coletar balas aumenta o contador de munição.
+
+- Objetivos
+
+O jogador vence ao acumular 20 munições.
+O jogador vence se eliminar 20 tanques inimigos.
+O jogo perde se colidir 3 vezes com tanques inimigos, perdendo as 3 vidas iniciais.
+
+- Como Jogar
+
+Clique no botão "Iniciar Jogo".
+Use as setas do teclado para mover o tanque para a direita e para a esquerda.
+Evite os tanques inimigos para não perder vidas.
+Colete as munições para derrotar os tanques.
+Atire com a tecla Espaço (se tiver munições disponíveis).
+
+- Tecnologias Utilizadas
+
+Linguagem: JavaScript
+Canvas API para renderização do jogo
+HTML e CSS para estrutura e estilização
+Efeitos sonoros para maior imersão
+
+- Estrutura de Arquivos
+
+BlazingTanks/
+│── index.html      # Estrutura principal do jogo
+│── style.css       # Estilos visuais do jogo
+│── game.js         # Lógica principal do jogo
+│── READ ME.txt     # Documentação do jogo
+│── assets/         # Imagens e sons do jogo
+
+- Controles
+
+Seta Esquerda: Move o tanque para a esquerda
+Seta Direita: Move o tanque para a direita
+Espaço: Atira se possuir munição.
+
+
+Este projeto foi desenvolvido para fins acadêmicos na disciplina de Desenvolvimento de Jogos Digitais.
