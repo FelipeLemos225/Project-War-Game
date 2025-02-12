@@ -1,0 +1,58 @@
+/*Importação da Fonte do Título*/
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+body {
+  background-color: black; /* Fundo escuro para contraste */
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda a altura da tela */
+  margin: 0;
+}
+
+#gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200; /* Define um tamanho fixo */
+  height: 700; /* Ajuste a altura conforme necessário */
+  background-color: #222; /* Fundo para destacar o jogo */
+  border: 3px solid white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Black Ops One", cursive; /* Fonte com estilo militar/batalha */
+  font-size: 40px;
+  color: #7d8fff;
+  text-transform: uppercase; /* Deixa todas as letras maiúsculas */
+  text-shadow: 3px 3px 5px rgba(0, 0, 255, 0.7); /* Efeito de sombra azul */
+  margin: 10px 0;
+  text-align: center;
+}
+
+#startButton {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#startButton:hover {
+  background-color: navy;
+}
+
+canvas {
+  background-color: black;
+  width: 100%;
+  height: 80%;
+  border: 2px solid white;
+}
